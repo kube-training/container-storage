@@ -7,7 +7,7 @@
     kubectl get pod task-pv-pod
 
 Get a shell to the Container running in your Pod:
-  kubectl exec -it task-pv-pod -- /bin/bash
+    kubectl exec -it task-pv-pod -- /bin/bash
 
 In your shell, verify that nginx is serving the index.html file from the hostPath volume:
 root@task-pv-pod:/# apt-get update
